@@ -1,0 +1,19 @@
+def calculator (x,y,op):
+ if op =="+":
+  return x+y
+ elif op == "-" :
+  return x-y
+ elif  op == "*":
+  return x*y
+ elif op =="/" :
+  if y== 0 :
+    print ("no")
+  else: 
+      x/y
+ else :
+    print ("error, try again" ) 
+
+f=int(input ("number 1 : "))
+g=int(input("number 2 : ") )
+op = input ("choose operand ")
+print (calculator(f,g,op))
